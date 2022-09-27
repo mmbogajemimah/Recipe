@@ -11,13 +11,19 @@
     border-bottom-right-radius: 5px;
     box-shadow: 6px -11px 10px -6px rgba(0,0,0,0.25);
     background-color: white;
-    transition: box-shadow 0.15s margin 0.15s;
+    transition: box-shadow 0.15s margin 0.15s color 0.15s background-color 0.15s;
     cursor: pointer;
 }
 
 .food:hover {
     box-shadow: 6px -11px 10px -6px rgba(6, 5, 5, 0.4);
     margin: -2px;
+    color: rgb(255, 247, 237);
+    background-color: rgb(139, 138, 138);
+}
+
+.food:active {
+    color: brown;
 }
 
 .thumbnail {
@@ -26,9 +32,14 @@
     object-fit: cover;
 }
 
+.thumbnail:active {
+    opacity: 0.8;
+}
+
 .recipie-name {
     font-weight: bold;
-    margin-left: 28%;
+    padding-left: 25%;
     padding-bottom: 10px;
-    
 }
+
+
