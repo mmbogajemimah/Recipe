@@ -1,0 +1,385 @@
+httml, body {
+    height: 100%
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 12pt;
+    height: 3000px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+p, ol, ul {
+    margin-top: 0;
+}
+
+p {
+    line-height: 180%;
+}
+
+ol, ul {
+    padding: 0;
+}
+
+.container {
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1600px;
+}
+
+header {
+    overflow: hidden;
+}
+
+#top-header {
+    text-align: center;
+    height: 60px;
+}
+
+/* Styling Logo(#logo) */
+#logo {
+    float: left;
+    padding: none;
+    height: 60px;
+    width: 30%
+}
+
+#logo img {
+    width : 60%;
+    float: left;
+    padding: 10px 0px;
+}
+
+/* Styling Navigation Menu(#menu): */
+
+#menu {
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+
+#menu ul {
+    text-align: center;
+    float: right;
+    margin: none;
+    background: rgb(252, 185, 60);
+}
+
+#menu li {
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+#menu li a,
+#menu li span {
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+#menu li a {
+    color: #FFF;
+}
+
+#menu li:hover a,
+#menu li span {
+    background: #FFF;
+    color: orange;
+    text-decoration: none;
+}
+
+/* Styling the main image menu(#header-image-menu) */
+#header-image-menu {
+    top: 10px;
+    position: relative;
+}
+
+/* Styling the image inside the image menu */
+#header-image-menu img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: none;
+    padding: none;
+}
+
+/* Positioning the text(#image-text) */
+#image-text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-family: 'Roboto';
+    color: white;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
+
+/* Section2 styles */
+#introduction {
+    margin-top: 40px;
+    
+    border: none;
+    box-shadow: 4px 7px 22px -1px rgba(0,0,0,0.53) inset;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(255, 245, 232);
+}
+
+.left-div {
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.right-div {
+    flex: 1;
+}
+
+.right-div img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 30%;
+}
+
+.left-div .introduction-heading {
+    font-size: 28px;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    color: black;
+}
+
+.left-div .introduction-about {
+    font-size: 23px;
+    text-align: justify;
+    width: 720px;
+    margin-left: 10%;
+}
+
+
+.left-div .look-up-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    font-weight: bold;
+
+    background-color: rgb(127, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.introduction-lookup-btn {
+    text-align: center;
+}
+
+/* section 3 */
+.displays {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.displays p {
+    margin: 0;
+    padding: 0;
+}
+
+.food-display {
+    display: flex;
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.23);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.image-display {
+    width: 99%;
+    height: 92%;
+    object-fit: cover;
+    justify-content: space-between;
+}
+
+.displays h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(107, 6, 6);
+}
+
+.display .info-display {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Section 3 */
+
+.review-header {
+    font-size: 28px; 
+}
+.review-header h2 {
+    color: rgb(150, 6, 6);
+    text-align: center;
+}
+
+.customer-reviews {
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.23);
+    height: 250px;
+    background-color: rgb(253, 247, 239);
+    margin-bottom: 30px;
+}
+
+.review {
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.comments {
+    width: 90%;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.name {
+    
+    font-weight: bold;
+    color: brown;
+}
+
+/* Section 4 */
+
+.sign-up-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    background-color: rgb(253, 247, 239);
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.23);
+}
+
+.sign-up-info h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.sign-up-info {
+    font-size: 18px;
+}
+
+.sign-up-btn button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    font-weight: bold;
+
+    background-color: rgb(127, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Section4 */
+
+/* First style the basic layout */
+.company-details {
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #dea5a5;
+    text-align: center;
+    margin-top: 5em;
+}
+
+/* Aligning the three columns in one line */
+#footer #col1,
+#footer #col2,
+#footer #col3 {
+    float: left;
+    width: 320px;
+    padding: 0px 40px 0px 40px;
+}
+
+/* Adding Styles to the FontAwesome Icons */
+#footer #icon {
+    display:block;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+/* Adding Styles to div “copyright” */
+    /* Adding Styles to basic layout: */
+.copyright {
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #674343;
+}
+
+.copyright p
+{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.copyright a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ul.contact{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.contact li a{
+    color: #FFF;
+    display: inline-block;
+    background: #a75c5c;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

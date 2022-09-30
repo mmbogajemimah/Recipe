@@ -22,9 +22,6 @@
     background-color: rgb(139, 138, 138);
 }
 
-.food:active {
-    color: brown;
-}
 
 .thumbnail {
     width: 250px;
@@ -42,4 +39,20 @@
     padding-bottom: 10px;
 }
 
+@media (max-width: 400px) {
+    .food-grid {
+        grid-template-columns: 1fr;
+        
+    }
+}
 
+.anchor {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    transform: color 0.15s;
+}
+
+.anchor:active {
+    color: brown;
+}
