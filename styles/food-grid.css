@@ -71,3 +71,9 @@
     color: black;
     transition: color 0.15s;
 }
+.container {
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1600px;
+}
